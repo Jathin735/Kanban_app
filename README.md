@@ -1,21 +1,10 @@
 <br />
 <p align="center">
-  <h1 align="center">Jella</h1>
+  <h1 align="center">KanbanBoard</h1>
   <p align="center">
     <strong>A Kanban board web app that allows users to visually plan, track and organize projects they are working on.</strong>
       <br />
       <br />
-    <a href="https://jella.onrender.com/"><strong>🚀  View Demo</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/Gkuzin13/jella/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Gkuzin13/jella/issues">Request Feature</a>
-  </p>
-</p>
-
-<img src="https://github.com/Gkuzin13/jella/blob/assets/jella-main.gif" alt="Jella board page">
-
 <h2 style="display: inline-block">Table of Contents</h2>
 <ol>
   <li>
@@ -69,7 +58,7 @@ npm install npm@latest -g
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Gkuzin13/jella.git
+   https://github.com/Jathin735/Kanban_app.git
    ```
 2. Install Dependencies (client & server)
    ```sh
@@ -79,9 +68,7 @@ npm install npm@latest -g
    ```
 3. Set Env Variables
    ```sh
-   # Create a .env file in root folder and add the following
-   MONGODB_URI=mongodb://127.0.0.1:27017/localjella
-   SESSION_SECRET=abc123
+   # Create a .env file in root folder and add mongodburl and session key
    ```
 
 ### Run
